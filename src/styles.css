@@ -24,3 +24,19 @@ body {
 html {
     scroll-behavior: smooth;
     }
+
+@media (min-width: 1020px) {
+    div .skills{
+        grid-column: 1 / -1;
+        }
+
+    div .skills h3{
+        text-align: center;
+        }
+    
+    div .skills ul{
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        }
+    }
